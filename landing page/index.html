@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homestay • Cozy Retreat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar"> <div class="container"> <a class="navbar-brand fw-bold text-white" href="#">Home<span class="text-primary">Stay</span></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="mainNav"> <ul class="navbar-nav ms-auto align-items-lg-center"> <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li> <li class="nav-item"><a class="nav-link" href="#about">About</a></li> <li class="nav-item"><a class="nav-link" href="#rooms">Our Rooms</a></li> <li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li> <li class="nav-item"><a class="nav-link" href="#pages">Pages</a></li> <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li> <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> <!-- Reservation Button --> <li class="nav-item ms-lg-3"> <a class="btn btn-primary" href="#reservation">Reservation</a> </li> </ul> </div> </div> </nav>
+
+  <!-- HERO SECTION -->
+  <header id="home" class="hero-section text-white">
+  <div class="overlay"></div>
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold animate-text"> Homestay</h1>
+    <p class="lead mt-3 animate-sub">Cozy rooms, personalized hospitality, unforgettable experiences.</p>
+    <a href="#booking" class="btn btn-primary btn-lg mt-4 animate-btn">Check Availability</a>
+  </div>
+</header>
+
+  <!-- ABOUT SECTION -->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side Image -->
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <img src="about.jpg" alt="Homestay" class="img-fluid rounded-3 shadow-lg">
+      </div>
+      
+      <!-- Right Side Text -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h2 class="fw-bold mb-3 text-primary">About Our Homestay</h2>
+        <p class="mb-4">
+          Welcome to our cozy retreat, where comfort meets tradition. 
+          Nestled in nature’s beauty, our homestay blends modern comforts 
+          with warm hospitality, ensuring every guest feels at home.  
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li>✨ Comfortable and spacious rooms</li>
+          <li>🍴 Traditional homemade meals</li>
+          <li>🌿 Serene environment with modern facilities</li>
+        </ul>
+        <a href="#rooms" class="btn btn-primary">Explore Our Rooms</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--room-->
+<section id="rooms" class="rooms-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Our Rooms</h2>
+      <p class="text-muted">Choose from our cozy and comfortable room options</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Room 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="dulux room.jpg" class="card-img-top rounded-top-4" alt="Deluxe Room">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Deluxe Room</h5>
+            <p class="card-text text-muted">Spacious deluxe rooms with modern amenities and serene views.</p>
+            <p class="fw-bold text-primary">$120 / night</p>
+            <a href="#reservation" class="btn btn-outline-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Room 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="suit.jpg" class="card-img-top rounded-top-4" alt="Suite">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Luxury Suite</h5>
+            <p class="card-text text-muted">Enjoy a lavish suite with premium facilities and private balcony.</p>
+            <p class="fw-bold text-primary">$200 / night</p>
+            <a href="#reservation" class="btn btn-outline-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Room 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="standard.jpg" class="card-img-top rounded-top-4" alt="Standard Room">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Standard Room</h5>
+            <p class="card-text text-muted">A cozy and affordable option with comfort for short stays.</p>
+            <p class="fw-bold text-primary">$80 / night</p>
+            <a href="#reservation" class="btn btn-outline-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- facilities-->
+<section id="facilities" class="facilities-section py-5 text-center">
+  <div class="container">
+    <div class="mb-5" data-aos="fade-up">
+      <h2 class="fw-bold text-primary">Facilities</h2>
+      <p class="text-muted">Enjoy premium amenities during your stay with us</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Facility 1 -->
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="facility-box p-4 shadow-lg rounded-4 bg-white h-100">
+          <i class="fas fa-swimming-pool fa-3x text-primary mb-3"></i>
+          <h5 class="fw-bold">Swimming Pool</h5>
+          <p class="text-muted">Relax and refresh in our modern outdoor pool.</p>
+        </div>
+      </div>
+
+      <!-- Facility 2 -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="facility-box p-4 shadow-lg rounded-4 bg-white h-100">
+          <i class="fas fa-spa fa-3x text-primary mb-3"></i>
+          <h5 class="fw-bold">Spa & Wellness</h5>
+          <p class="text-muted">Rejuvenate your body and soul with our luxury spa.</p>
+        </div>
+      </div>
+
+      <!-- Facility 3 -->
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="facility-box p-4 shadow-lg rounded-4 bg-white h-100">
+          <i class="fas fa-utensils fa-3x text-primary mb-3"></i>
+          <h5 class="fw-bold">Restaurant</h5>
+          <p class="text-muted">Delicious local & international cuisines to savor.</p>
+        </div>
+      </div>
+
+      <!-- Facility 4 -->
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="facility-box p-4 shadow-lg rounded-4 bg-white h-100">
+          <i class="fas fa-wifi fa-3x text-primary mb-3"></i>
+          <h5 class="fw-bold">Free Wi-Fi</h5>
+          <p class="text-muted">Stay connected anytime with high-speed internet.</p>
+        </div>
+      </div>
+
+      <!-- Facility 5 -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="facility-box p-4 shadow-lg rounded-4 bg-white h-100">
+          <i class="fas fa-dumbbell fa-3x text-primary mb-3"></i>
+          <h5 class="fw-bold">Fitness Center</h5>
+          <p class="text-muted">Keep up your workouts at our state-of-the-art gym.</p>
+        </div>
+      </div>
+
+      <!-- Facility 6 -->
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="facility-box p-4 shadow-lg rounded-4 bg-white h-100">
+          <i class="fas fa-concierge-bell fa-3x text-primary mb-3"></i>
+          <h5 class="fw-bold">24/7 Service</h5>
+          <p class="text-muted">Round-the-clock assistance for all your needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pages" class="pages-section py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4 text-primary animate-pop">Our Pages</h2>
+    <p class="mb-5 text-muted animate-pop delay-1">Dive deeper into our world – explore unique experiences!</p>
+
+    <div class="pages-grid">
+      <!-- Gallery -->
+      <div class="page-item gallery animate-pop delay-1">
+        <div class="overlay">
+          <h3>Gallery</h3>
+          <p>Peek inside our cozy homestay</p>
+          <a href="#" class="btn view-btn">View</a>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="page-item testimonials tall animate-pop delay-2">
+        <div class="overlay">
+          <h3>Testimonials</h3>
+          <p>What our guests say</p>
+          <a href="#" class="btn view-btn">View</a>
+        </div>
+      </div>
+
+      <!-- Pricing -->
+      <div class="page-item pricing wide animate-pop delay-3">
+        <div class="overlay">
+          <h3>Pricing</h3>
+          <p>Affordable packages</p>
+          <a href="#" class="btn view-btn">View</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="blog" class="blog-section py-5">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h2 class="fw-bold text-primary">Our Blog</h2>
+      <p class="text-muted">Stories, tips, and updates from our homestay</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Featured Blog -->
+      <div class="col-lg-12">
+        <div class="blog-card from-left">
+          <img src="nature.jpg" alt="Featured Blog">
+          <div class="blog-content">
+            <h3>🌸 Experience Nature Like Never Before</h3>
+            <p>Discover hidden gems around our homestay that make your stay unforgettable.</p>
+            <a href="#" class="btn-read">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Smaller Blogs -->
+      <div class="col-md-4">
+        <div class="blog-card from-left">
+          <img src="things-to-do-in-kerala.jpg" alt="Blog">
+          <div class="blog-content">
+            <h4>🌿 Top 5 Things To Do Here</h4>
+            <p>From adventure to relaxation, explore it all.</p>
+            <a href="#" class="btn-read">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-card from-right">
+          <img src="food-kerala1.jpg" alt="Blog">
+          <div class="blog-content">
+            <h4>🍲 Delicious Local Foods</h4>
+            <p>Taste the authentic flavors during your stay.</p>
+            <a href="#" class="btn-read">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-card from-left">
+          <img src="guest.jpg" alt="Blog">
+          <div class="blog-content">
+            <h4>Guest Stories</h4>
+            <p>Hear from travelers who made memories here.</p>
+            <a href="#" class="btn-read">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Script inside HTML -->
+<script>
+  const blogCards = document.querySelectorAll('.blog-card');
+
+  window.addEventListener('scroll', () => {
+    blogCards.forEach(card => {
+      const rect = card.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        card.classList.add('show');
+      }
+    });
+  });
+</script>
+
+
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact py-5">
+  <div class="container text-center" data-aos="fade-up">
+
+    <div class="section-header mb-5">
+      <h2>Contact</h2>
+      <p>We’d love to hear from you. Reach out with any questions or inquiries.</p>
+    </div>
+
+    <div class="info-row d-flex justify-content-center gap-4 flex-wrap">
+
+      <!-- Address Card -->
+      <div class="info-card">
+        <div class="info-card-inner">
+          <div class="info-card-front p-4 shadow-sm rounded bg-white">
+            <div class="icon-circle">📍</div>
+            <h5 class="mt-3">Our Address</h5>
+            <p>1842 Maple Avenue, Portland, Oregon 97204</p>
+          </div>
+          <div class="info-card-back p-4 shadow-sm rounded bg-primary text-white">
+            <h5>Visit Us</h5>
+            <p>Located at the heart of Portland. Easy access with parking.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Email Card -->
+      <div class="info-card">
+        <div class="info-card-inner">
+          <div class="info-card-front p-4 shadow-sm rounded bg-white">
+            <div class="icon-circle">✉️</div>
+            <h5 class="mt-3">Email Us</h5>
+            <p>info@example.com<br>contact@example.com</p>
+          </div>
+          <div class="info-card-back p-4 shadow-sm rounded bg-success text-white">
+            <h5>Quick Reply</h5>
+            <p>We respond to most emails within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hours Card -->
+      <div class="info-card">
+        <div class="info-card-inner">
+          <div class="info-card-front p-4 shadow-sm rounded bg-white">
+            <div class="icon-circle">⏰</div>
+            <h5 class="mt-3">Hours of Operation</h5>
+            <p>Sunday–Friday: 9 AM – 6 PM<br>Saturday: 9 AM – 4 PM</p>
+          </div>
+          <div class="info-card-back p-4 shadow-sm rounded bg-warning text-dark">
+            <h5>We’re Open</h5>
+            <p>Book your appointment anytime online.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Map + Form -->
+    <div class="row gy-4 mt-5">
+      <div class="col-lg-6">
+        <!-- Google Map Embed -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509378!2d144.9537353153169!3d-37.81627974202171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ5JzAyLjYiUyAxNDTCsDU3JzE5LjQiRQ!5e0!3m2!1sen!2sus!4v1615946881227" 
+          style="border:0; width: 100%; height: 350px;" 
+          frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="col-lg-6">
+        <!-- Contact Form -->
+        <form action="forms/contact.php" method="post" class="php-email-form p-4 shadow-sm rounded bg-white">
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="col-12">
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="col-12">
+              <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-primary px-4">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- End Contact Section -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.2 });
+
+    sections.forEach(section => {
+      section.classList.add("fade-section");
+      observer.observe(section);
+    });
+  });
+</script>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200, // speed
+    once: true      // only once animation
+  });
+</script>
+
+
+</body>
+</html>
